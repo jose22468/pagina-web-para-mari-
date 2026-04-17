@@ -48,7 +48,7 @@ const curiosidades = [
   "Odio la guanabana (no la quiero ver ni en pintura).",
   "Siempre he querido ir a un escape room (jamas he ido y me parecen curiosos).",
   "Me encanta automatizar tareas pequeñas cuando puedo (soy algo perezoso asi que creo paginas que me hagan la vida mas facil).",
-  "Yo aprendo programación creando cosas que sí uso (ejemplo esta pagina para ti)."
+  "Yo aprendo programación creando cosas que sí uso (ejemplo esta pagina web que cree para ti)."
 ];
 
 const grid = document.getElementById("factsGrid");
