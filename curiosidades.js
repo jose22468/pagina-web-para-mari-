@@ -43,7 +43,7 @@ const curiosidades = [
   "Yo disfruto perderme en mapas abiertos gigantes.",
   "Me gusta competir sanamente y aprender de cada derrota.",
   "Yo prefiero juegos con arte bonito y música épica.",
-  "Me encanta construir niveles desafiantes pero justos.",
+  "Me puedo poner nervioso si se llega a hablar o mensionar temas como el ABDL o similiares .",
   "Yo escribo código limpio para no perderme luego.",
   "Me gusta separar funciones cortas y fáciles de leer.",
   "Yo disfruto depurar errores con paciencia y café.",
