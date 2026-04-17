@@ -1,3 +1,6 @@
+const tituloCuriosidades = "Datos curiosos sobre José Miguel";
+const subtituloCuriosidades = "Cada tarjetita se llena desde curiosidades.js.";
+
 const curiosidades = [
   "Yo adoro acurrucarme con mi mantita favorita.",
   "Me gusta sentirme pequeñito cuando estoy en casa.",
@@ -52,6 +55,11 @@ const curiosidades = [
 ];
 
 const grid = document.getElementById("factsGrid");
+const title = document.getElementById("factsTitle");
+const subtitle = document.getElementById("factsSubtitle");
+
+if (title) title.textContent = tituloCuriosidades;
+if (subtitle) subtitle.textContent = subtituloCuriosidades;
 
 curiosidades.forEach((texto, index) => {
   const card = document.createElement("article");
