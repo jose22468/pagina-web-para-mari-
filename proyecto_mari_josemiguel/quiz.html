@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz creativo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="topbar card">
+      <a class="link" href="index.html">← Volver</a>
+      <div>
+        <p class="badge">Quiz creativo</p>
+        <h1>¿Qué proyecto deberías hacer hoy?</h1>
+        <p class="lead">Un test simple y divertido para elegir entre varias ideas de código.</p>
+      </div>
+    </header>
+
+    <section class="card quiz">
+      <form id="quizForm">
+        <div class="question">
+          <h2>1. ¿Qué te apetece crear más?</h2>
+          <label><input type="radio" name="q1" value="videojuego" /> Un videojuego sencillo</label>
+          <label><input type="radio" name="q1" value="animacion" /> Una animación bonita</label>
+          <label><input type="radio" name="q1" value="web" /> Una página web con datos curiosos</label>
+        </div>
+
+        <div class="question">
+          <h2>2. ¿Qué te motiva más?</h2>
+          <label><input type="radio" name="q2" value="videojuego" /> Interacción y reto</label>
+          <label><input type="radio" name="q2" value="animacion" /> Estilo visual y movimiento</label>
+          <label><input type="radio" name="q2" value="web" /> Ordenar información de forma bonita</label>
+        </div>
+
+        <div class="question">
+          <h2>3. ¿Cuánto tiempo quieres dedicar?</h2>
+          <label><input type="radio" name="q3" value="videojuego" /> Un proyecto corto y jugable</label>
+          <label><input type="radio" name="q3" value="animacion" /> Algo visual y relajado</label>
+          <label><input type="radio" name="q3" value="web" /> Algo que pueda crecer mucho</label>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" type="submit">Ver resultado</button>
+          <button class="btn secondary" type="reset">Reiniciar</button>
+        </div>
+      </form>
+
+      <div id="result" class="result hidden"></div>
+    </section>
+  </main>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
