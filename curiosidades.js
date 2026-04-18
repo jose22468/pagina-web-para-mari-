@@ -53,7 +53,6 @@ const curiosidades = [
 
 const grid = document.getElementById("factsGrid");
 
-if (grid) {
   curiosidades.forEach((texto, index) => {
     const card = document.createElement("article");
     card.className = "card fact";
@@ -63,4 +62,3 @@ if (grid) {
     `;
     grid.appendChild(card);
   });
-}
