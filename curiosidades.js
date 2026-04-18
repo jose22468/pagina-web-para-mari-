@@ -23,7 +23,9 @@ const curiosidades = [
   "Me gusta llevar una pulsera que me da calma.",
   "Yo me siento mejor con abrazos largos y sinceros.",
   "Me encanta cuidar mi rincón como un lugar seguro.",
-@@ -30,35 +33,40 @@ const curiosidades = [
+  "Yo disfruto los días de lluvia con música suave.",
+  "Me gusta escribir notitas lindas para recordar cosas buenas.",
+  "Yo me relajo ordenando mis cosas con calma.",
   "Me encanta agradecer cada gesto bonito que recibo.",
   "Yo cuido mucho a quien me entrega su confianza.",
   "Me gusta decir te quiero en momentos simples.",
@@ -49,18 +51,15 @@ const curiosidades = [
 ];
 
 const grid = document.getElementById("factsGrid");
-const title = document.getElementById("factsTitle");
-const subtitle = document.getElementById("factsSubtitle");
 
-if (title) title.textContent = tituloCuriosidades;
-if (subtitle) subtitle.textContent = subtituloCuriosidades;
-
-curiosidades.forEach((texto, index) => {
-  const card = document.createElement("article");
-  card.className = "card fact";
-  card.innerHTML = `
-    <h3>Dato ${index + 1}</h3>
-    <p>${texto}</p>
-  `;
-  grid.appendChild(card);
-});
+if (grid) {
+  curiosidades.forEach((texto, index) => {
+    const card = document.createElement("article");
+    card.className = "card fact";
+    card.innerHTML = `
+      <h3>Dato ${index + 1}</h3>
+      <p>${texto}</p>
+    `;
+    grid.appendChild(card);
+  });
+}
