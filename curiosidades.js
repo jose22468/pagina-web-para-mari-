@@ -1,6 +1,3 @@
-const tituloCuriosidades = "Datos curiosos sobre José Miguel";
-const subtituloCuriosidades = "Cada tarjetita se llena desde curiosidades.js.";
-
 const curiosidades = [
   "Yo adoro acurrucarme con mi mantita favorita.",
   "Me gusta sentirme pequeñito cuando estoy en casa.",
